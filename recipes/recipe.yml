@@ -6,7 +6,7 @@ name: uwu-os
 description: UwU spin of Fedora Atomic.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: gitlab.com/rakuos/images/rakuos-base
+base-image: ghcr.io/rakuos/rakuos-base
 image-version: latest # You can pin to a specific version of Fedora as well
 
 
