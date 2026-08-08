@@ -43,7 +43,7 @@ jobs:
         id: build
         uses: ublue-os/titanoboa@main
         with:
-          image-ref: ghcr.io/kannnibal2/uwu-os
+          image-ref: ghcr.io/kannnibal2/uwu-os:latest
 
       - name: Rename and Checksum ISO
         run: |
